@@ -11,8 +11,8 @@ const burger = (props) => {
                 return <BugerIngrediant key={igKey + i} type={igKey} />;
             });
         })
-        .reduce((preValue, curValue) => {
-            return preValue.concat(curValue);
+        .reduce((arr, el) => {
+            return arr.concat(el);
         }, []);
 
     if (transformedIngredients.length === 0) {
