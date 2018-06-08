@@ -91,5 +91,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^2.5.7"
   }
 }
