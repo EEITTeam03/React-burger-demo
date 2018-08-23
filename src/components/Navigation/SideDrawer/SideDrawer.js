@@ -6,11 +6,12 @@ import classes from './SideDrawer.css';
 const sideDrawer = () =>{
     return (
         <div className={classes.SideDrawer}>
-            <Logo>
-                <nav>
-                    <NavigationItems />
-                </nav>
-            </Logo>
+            <div className={classes.Logo}>
+                <Logo />
+            </div>
+            <nav>
+                <NavigationItems />
+            </nav>
         </div>
     );
 };
