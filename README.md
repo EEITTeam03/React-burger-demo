@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Folder Structure
 
-After creation, your project should look like this:
+After npm install , your project should look like this:
 
 ```
 my-app/
