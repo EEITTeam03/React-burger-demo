@@ -15,6 +15,10 @@ my-app/
     index.html
     favicon.ico
   src/
+    assets/images
+    components
+    containers/BurgerBuilder
+    hoc
     App.css
     App.js
     App.test.js
